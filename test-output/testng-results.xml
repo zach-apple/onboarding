@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="23039" started-at="2018-02-21T14:19:40Z" finished-at="2018-02-21T14:20:03Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="23039" started-at="2018-02-21T14:19:40Z" finished-at="2018-02-21T14:20:03Z">
+      <class name="Apple.Zach.ex10">
+        <test-method status="PASS" signature="test2Ex10()[pri:0, instance:Apple.Zach.ex10@670b40af]" name="test2Ex10" duration-ms="9659" started-at="2018-02-21T14:19:40Z" finished-at="2018-02-21T14:19:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2Ex10 -->
+        <test-method status="PASS" signature="test3Ex10()[pri:0, instance:Apple.Zach.ex10@670b40af]" name="test3Ex10" duration-ms="4170" started-at="2018-02-21T14:19:50Z" finished-at="2018-02-21T14:19:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3Ex10 -->
+        <test-method status="PASS" signature="testEx10()[pri:0, instance:Apple.Zach.ex10@670b40af]" name="testEx10" duration-ms="9190" started-at="2018-02-21T14:19:54Z" finished-at="2018-02-21T14:20:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEx10 -->
+      </class> <!-- Apple.Zach.ex10 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
