@@ -1,25 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="25829" started-at="2018-02-21T16:09:11Z" finished-at="2018-02-21T16:09:37Z">
+  <suite name="Default suite" duration-ms="4229" started-at="2018-02-21T17:20:59Z" finished-at="2018-02-21T17:21:03Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="25829" started-at="2018-02-21T16:09:11Z" finished-at="2018-02-21T16:09:37Z">
-      <class name="Apple.Zach.ex10">
-        <test-method status="PASS" signature="test2Ex10()[pri:0, instance:Apple.Zach.ex10@670b40af]" name="test2Ex10" duration-ms="12036" started-at="2018-02-21T16:09:11Z" finished-at="2018-02-21T16:09:23Z">
+    <test name="Default test" duration-ms="4229" started-at="2018-02-21T17:20:59Z" finished-at="2018-02-21T17:21:03Z">
+      <class name="Apple.Zach.ex8">
+        <test-method status="PASS" signature="testEx8()[pri:0, instance:Apple.Zach.ex8@45820e51]" name="testEx8" duration-ms="4212" started-at="2018-02-21T17:20:59Z" finished-at="2018-02-21T17:21:03Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test2Ex10 -->
-        <test-method status="PASS" signature="test3Ex10()[pri:0, instance:Apple.Zach.ex10@670b40af]" name="test3Ex10" duration-ms="4470" started-at="2018-02-21T16:09:23Z" finished-at="2018-02-21T16:09:28Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test3Ex10 -->
-        <test-method status="PASS" signature="testEx10()[pri:0, instance:Apple.Zach.ex10@670b40af]" name="testEx10" duration-ms="9307" started-at="2018-02-21T16:09:28Z" finished-at="2018-02-21T16:09:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testEx10 -->
-      </class> <!-- Apple.Zach.ex10 -->
+        </test-method> <!-- testEx8 -->
+      </class> <!-- Apple.Zach.ex8 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

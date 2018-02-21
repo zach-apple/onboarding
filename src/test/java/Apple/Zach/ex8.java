@@ -17,18 +17,22 @@ public void testEx8() {
 	System.out.println(driver.findElement(By.xpath("//*[@id=\"table1\"]/tbody/tr[1]")).getText());
 	WebElement table1 = driver.findElement(By.xpath("//*[@id=\"table1\"]"));
 	List<WebElement> list1 = table1.findElements(By.tagName("tr"));
+	//index starting at one for the 
 	int index = 1;
+	int rowNum=-1;
 	for(WebElement e : list1) {
 		List<WebElement> row = e.findElements(By.tagName("td"));
 		int col = 1;
 		for(WebElement r : row) {
 			if(r.getText().equals("jdoe@hotmail.com")) {
-				System.out.println("Row " + index + " Col "+ col);
+				rowNum = index;
+				System.out.println("Row " + rowNum + " Col "+ col);
 			}
 			col++;
 		}
 		index++;
 	}
-	
+		list1.get(rowNum-1).findElement(By.linkText("delete")).click();
+
 	}
 }
