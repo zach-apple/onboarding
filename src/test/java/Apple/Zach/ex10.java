@@ -18,7 +18,7 @@ public class ex10 {
 		driver.findElement(By.tagName("Button")).click();
 		try {
 			new WebDriverWait(driver, 5).until(ExpectedConditions.visibilityOf(driver.findElement(By.id("finish"))));
-			//alternate, shorter
+			// alternate, shorter
 			new WebDriverWait(driver, 5).until(ExpectedConditions.visibilityOfElementLocated(By.id("finish")));
 			System.out.println("Hello World is visible.");
 		} catch (TimeoutException toe) {
@@ -28,6 +28,7 @@ public class ex10 {
 			driver.quit();
 		}
 	}
+
 	@Test
 	public void test2Ex10() {
 		WebDriver driver = new ChromeDriver();
@@ -44,10 +45,9 @@ public class ex10 {
 			driver.close();
 			driver.quit();
 		}
-		
-		
+
 	}
-	
+
 	@Test
 	public void test3Ex10() {
 		WebDriver driver = new ChromeDriver();
@@ -64,8 +64,7 @@ public class ex10 {
 			driver.close();
 			driver.quit();
 		}
-		
-		
+
 	}
 
 }
