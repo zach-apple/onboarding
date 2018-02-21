@@ -6,7 +6,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class ex10 {
@@ -19,7 +18,8 @@ public class ex10 {
 		driver.findElement(By.tagName("Button")).click();
 		try {
 			new WebDriverWait(driver, 5).until(ExpectedConditions.visibilityOf(driver.findElement(By.id("finish"))));
-
+			//alternate, shorter
+			new WebDriverWait(driver, 5).until(ExpectedConditions.visibilityOfElementLocated(By.id("finish")));
 			System.out.println("Hello World is visible.");
 		} catch (TimeoutException toe) {
 			toe.printStackTrace();
@@ -37,7 +37,6 @@ public class ex10 {
 		driver.findElement(By.tagName("Button")).click();
 		try {
 			new WebDriverWait(driver, 5).until(ExpectedConditions.invisibilityOfElementLocated(By.id("loading")));
-
 			System.out.println("Loading is not visible.");
 		} catch (TimeoutException toe) {
 			toe.printStackTrace();
@@ -58,7 +57,6 @@ public class ex10 {
 		driver.findElement(By.tagName("Button")).click();
 		try {
 			new WebDriverWait(driver, 5).until(ExpectedConditions.presenceOfElementLocated(By.id("finish")));
-
 			System.out.println("'Hello World' is present");
 		} catch (TimeoutException toe) {
 			toe.printStackTrace();

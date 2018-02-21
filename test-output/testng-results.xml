@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="23039" started-at="2018-02-21T14:19:40Z" finished-at="2018-02-21T14:20:03Z">
+  <suite name="Default suite" duration-ms="25829" started-at="2018-02-21T16:09:11Z" finished-at="2018-02-21T16:09:37Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="23039" started-at="2018-02-21T14:19:40Z" finished-at="2018-02-21T14:20:03Z">
+    <test name="Default test" duration-ms="25829" started-at="2018-02-21T16:09:11Z" finished-at="2018-02-21T16:09:37Z">
       <class name="Apple.Zach.ex10">
-        <test-method status="PASS" signature="test2Ex10()[pri:0, instance:Apple.Zach.ex10@670b40af]" name="test2Ex10" duration-ms="9659" started-at="2018-02-21T14:19:40Z" finished-at="2018-02-21T14:19:50Z">
+        <test-method status="PASS" signature="test2Ex10()[pri:0, instance:Apple.Zach.ex10@670b40af]" name="test2Ex10" duration-ms="12036" started-at="2018-02-21T16:09:11Z" finished-at="2018-02-21T16:09:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2Ex10 -->
-        <test-method status="PASS" signature="test3Ex10()[pri:0, instance:Apple.Zach.ex10@670b40af]" name="test3Ex10" duration-ms="4170" started-at="2018-02-21T14:19:50Z" finished-at="2018-02-21T14:19:54Z">
+        <test-method status="PASS" signature="test3Ex10()[pri:0, instance:Apple.Zach.ex10@670b40af]" name="test3Ex10" duration-ms="4470" started-at="2018-02-21T16:09:23Z" finished-at="2018-02-21T16:09:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test3Ex10 -->
-        <test-method status="PASS" signature="testEx10()[pri:0, instance:Apple.Zach.ex10@670b40af]" name="testEx10" duration-ms="9190" started-at="2018-02-21T14:19:54Z" finished-at="2018-02-21T14:20:03Z">
+        <test-method status="PASS" signature="testEx10()[pri:0, instance:Apple.Zach.ex10@670b40af]" name="testEx10" duration-ms="9307" started-at="2018-02-21T16:09:28Z" finished-at="2018-02-21T16:09:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testEx10 -->
